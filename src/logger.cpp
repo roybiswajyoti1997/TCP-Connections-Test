@@ -1,4 +1,4 @@
-#include "Logger.hpp"
+#include "logger.hpp"
 
 Logger::Logger(const std::string& filename, bool logToConsole) : consoleOutput(logToConsole) {
     if (!filename.empty()) {
