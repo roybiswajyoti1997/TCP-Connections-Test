@@ -4,7 +4,7 @@
 #include "Benchmark.hpp"
 
 int main() {
-    const std::string serverIP = "141.76.47.8";  // change to localhost for local test
+    const std::string serverIP = "127.0.0.1";  // change to localhost for local test
     const int port = 8080;
 
     Connection clientConn;
